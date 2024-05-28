@@ -5,5 +5,5 @@ Description: make a program called guessinggame.sh. This program should continuo
 Make date: Tue, 28 May 2024 14:48:58<br/>
 Number of lines in guessinggame.sh: 24
 
-Warm Regards,
+Warm Regards,<br/>
 Aymane Daouki
