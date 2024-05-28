@@ -8,13 +8,12 @@ README.md: guessinggame.sh
 	echo "\\" >> README.md	
 	echo "**Description**: make a program called *guessinggame.sh*. This program should continuously ask the user to guess the number of files in the current directory, until they guess the correct number. The user is informed if their guess is too high or too low. Once the user guesses the correct number of files in the current directory they should be congratulated." >> README.md
 	echo "\\" >> README.md
-	echo -n "**Make date**: " >> README.md
+	echo "**Make date**: " >> README.md
 	date >> README.md
 	echo "\\" >> README.md
-	echo -n "**Number of lines in guessinggame.sh:** " >> README.md
+	echo "**Number of lines in guessinggame.sh:** " >> README.md
 	wc -l guessinggame.sh | egrep -o "[0-9]+" >> README.md
 	echo "" >> README.md
-	echo "**KUDOS!!!**" >> README.md
 	echo "" >> README.md
 	echo "**Warm Regards,**" >> README.md
 	echo "\\" >> README.md
